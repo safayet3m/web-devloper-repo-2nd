@@ -1,0 +1,66 @@
+
+.orange{
+  color: #FD6E0A;  
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+.top-bar-cornar{
+    font-size: 50px;
+    font-weight: 800;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.full-top{
+    align-items: center;  
+}
+
+.header-up{
+    text-align: center; margin-top: 50px;
+    
+}
+.header-up a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.btn-colour{ background-color: #FD6E0A;
+color: white; padding: 15px 35px; 
+font-weight:600 ; font-size: 15px;
+border-radius: 5px;
+
+}
+#Hire-position{
+    margin-right:200px ;
+}
+.mid-heading{
+ font-size: 45px;   font-weight: 500; margin-bottom: 5px;
+
+}
+
+.header-mid{
+    display: flex;
+    gap: 130px;
+}
+
+.mary-titel{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.mid-tex-position{
+    margin-left: 230px;
+    
+}
+header{
+    background-color:  #FFF8F3;
+    background-image: url('../images/images/header_bg.png'),url('../images/images/developer.png'); ;background-repeat: no-repeat;
+    background-position: bottom right,left top;
+
+   
+}
