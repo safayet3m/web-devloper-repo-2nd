@@ -92,55 +92,150 @@ header {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    
+
 }
 
-.about-description{
+.about-description {
     text-align: center;
     margin-bottom: 30px;
-  
+
 }
 
-.about-footer{
+.about-footer {
     display: flex;
     justify-content: space-around;
 }
-.person-info{
-    
+
+.person-info {
+
     text-align: center;
     justify-content: space-around;
     margin-right: 40px;
 }
-.about-person-titel{
+
+.about-person-titel {
     color: #757575;
 }
 
-.part-of-what-i-do{
+.part-of-what-i-do {
     text-align: center;
     margin: 0px 350px;
 }
-.what-i-do-titel{
+
+.what-i-do-titel {
     font-size: 30px;
     font-weight: 700;
 }
-.what-i-do-description{
+
+.what-i-do-description {
     color: #757575;
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.what-i-do-footer{
+.what-i-do-footer {
     display: flex;
     justify-content: space-around;
 }
-.what-i-do-box{
+
+.what-i-do-box {
     width: 270px;
     height: 280px;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 6px 5px 0px;
-    background-color:#FFF8F3; 
+    background-color: #FFF8F3;
     padding: 30px;
-    margin-top:30px;
+    margin-top: 30px;
+}
+
+.resume-headding {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.resume-contrainar {
+    display: flex;
+    margin: 100px 200px;
+    justify-content: space-between;
+}
+
+.resume-titel {
+    margin-left: 30px;
+}
+
+.resume-item {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-dgree {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.resume-institution {
+    color: #757575;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.resume-downlode {
+    text-align: center;
+    margin: 70px 0px 100px 0px;
+
+}
+
+.footer-part {
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    gap: 20px;
+    padding: 100px 200px;
+}
+
+.footer-side {
+    margin-right: 100px;
+
+    width: 50%;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    margin-bottom: 30px;
+}
+
+.contact input[type=text],
+.contact input[type=email],
+textarea {
+    padding: 20px 35px;
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+textarea {
+    width: 460px;
+    height: 180px;
 }
