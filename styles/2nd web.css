@@ -103,6 +103,7 @@ header {
 
 .about-footer{
     display: flex;
+    justify-content: space-around;
 }
 .person-info{
     
@@ -112,4 +113,34 @@ header {
 }
 .about-person-titel{
     color: #757575;
+}
+
+.part-of-what-i-do{
+    text-align: center;
+    margin: 0px 350px;
+}
+.what-i-do-titel{
+    font-size: 30px;
+    font-weight: 700;
+}
+.what-i-do-description{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.what-i-do-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.what-i-do-box{
+    width: 270px;
+    height: 280px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 6px 5px 0px;
+    background-color:#FFF8F3; 
+    padding: 30px;
+    margin-top:30px;
 }
